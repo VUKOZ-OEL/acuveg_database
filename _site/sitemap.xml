@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/ACUVEG/database/</loc>
-<lastmod>2025-11-10T16:45:18+01:00</lastmod>
+<lastmod>2025-11-10T17:03:27+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/ACUVEG/</loc>
-<lastmod>2025-11-10T16:45:18+01:00</lastmod>
+<lastmod>2025-11-10T17:03:27+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/ACUVEG/project_details/</loc>
-<lastmod>2025-11-10T16:45:18+01:00</lastmod>
+<lastmod>2025-11-10T17:03:27+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/ACUVEG/database/</loc>
@@ -23,6 +23,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/ACUVEG/plots/plot1/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/ACUVEG/plots/plot10/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/ACUVEG/plots/plot11/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/ACUVEG/plots/plot2/</loc>

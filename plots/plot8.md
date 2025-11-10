@@ -6,7 +6,7 @@ sidebar:
 permalink: /plots/plot8/
 ---
 
-# Plot 8 – Riparian Zone
+
 
 - **Location:** TBD  
 - **Dominant species:** TBD  

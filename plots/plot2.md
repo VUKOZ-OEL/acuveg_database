@@ -1,12 +1,11 @@
 ---
 layout: single
-title: "Plot 2 – Spruce Stand"
+title: "Plot 2 – Mid-Age Beech Forest"
 sidebar:
   nav: "main"
 permalink: /plots/plot2/
 ---
 
-# Plot 2 – Spruce Stand
 
 - **Location:** TBD  
 - **Dominant species:** TBD  

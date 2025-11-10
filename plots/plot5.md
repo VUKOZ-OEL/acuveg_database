@@ -6,7 +6,6 @@ sidebar:
 permalink: /plots/plot5/
 ---
 
-# Plot 5 – Shrubland
 
 - **Location:** TBD  
 - **Dominant species:** TBD  

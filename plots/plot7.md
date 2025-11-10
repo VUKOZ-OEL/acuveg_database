@@ -6,7 +6,6 @@ sidebar:
 permalink: /plots/plot7/
 ---
 
-# Plot 7 – Meadow Edge
 
 - **Location:** TBD  
 - **Dominant species:** TBD  

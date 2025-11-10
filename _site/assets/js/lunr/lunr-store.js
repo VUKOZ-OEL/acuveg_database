@@ -11,7 +11,7 @@ var store = [{
         "url": "/ACUVEG/",
         "teaser": null
       },{
-        "title": "ACUVEG Project Details",
+        "title": "Project Details",
         "excerpt":"Introduction: The main concept of the prject is to identify suitable spatial and species compositions of vegetative strips of trees, which will be deliberately established to mitigate noise from transportation. The project’s goal is to conduct repeated measurements at the same locations under different conditions. All research will be carried...","categories": [],
         "tags": [],
         "url": "/ACUVEG/project_details/",

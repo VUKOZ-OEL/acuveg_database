@@ -1,9 +1,10 @@
----  
-layout: default  
-title: ACUVEG Project Details  
-intro: Aim, metohodology and results description
-permalink: "/project_details/"  
----  
+---
+layout: single
+title: "Project Details"
+permalink: /project_details/
+sidebar:
+  nav: "main"
+---
 
 
 ## Introduction:

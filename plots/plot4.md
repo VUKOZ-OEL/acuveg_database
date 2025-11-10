@@ -6,7 +6,6 @@ sidebar:
 permalink: /plots/plot4/
 ---
 
-# Plot 4 – Pine Grove
 
 - **Location:** TBD  
 - **Dominant species:** TBD  

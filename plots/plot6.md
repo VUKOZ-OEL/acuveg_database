@@ -6,7 +6,6 @@ sidebar:
 permalink: /plots/plot6/
 ---
 
-# Plot 6 – Young Plantation
 
 - **Location:** TBD  
 - **Dominant species:** TBD  

@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Plot 9 – Urban Vegetation"
+title: "Plot 11 – Reference measurement - open field"
 sidebar:
   nav: "main"
-permalink: /plots/plot9/
+permalink: /plots/plot11/
 ---
 
 

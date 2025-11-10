@@ -6,7 +6,6 @@ sidebar:
 permalink: /plots/plot3/
 ---
 
-# Plot 3 – Mixed Deciduous
 
 - **Location:** TBD  
 - **Dominant species:** TBD  
