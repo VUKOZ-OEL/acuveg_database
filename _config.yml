@@ -1,5 +1,10 @@
 title: "ACUVEG Project"
 description: "Acoustic noise attenuation by vegetation"
+
+# Site URLs (important for GitHub Pages)
+url: "https://vukoz-oel.github.io"
+baseurl: "/ACUVEG"
+
 theme: minimal-mistakes-jekyll
 
 plugins:

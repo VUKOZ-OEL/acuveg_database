@@ -1,6 +1,9 @@
 main:
   - title: "About the Project"
     url: /
+    children:
+      - title: "Project Details"
+        url: /project_details/
   - title: "Database"
     url: /database/
   - title: "Research Plots"
