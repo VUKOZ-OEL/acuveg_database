@@ -1,0 +1,25 @@
+main:
+  - title: "About the Project"
+    url: /
+  - title: "Database"
+    url: /database/
+  - title: "Research Plots"
+    children:
+      - title: "Plot 1 – Beech Forest"
+        url: /plots/plot1/
+      - title: "Plot 2 – Spruce Stand"
+        url: /plots/plot2/
+      - title: "Plot 3 – Mixed Deciduous"
+        url: /plots/plot3/
+      - title: "Plot 4 – Pine Grove"
+        url: /plots/plot4/
+      - title: "Plot 5 – Shrubland"
+        url: /plots/plot5/
+      - title: "Plot 6 – Young Plantation"
+        url: /plots/plot6/
+      - title: "Plot 7 – Meadow Edge"
+        url: /plots/plot7/
+      - title: "Plot 8 – Riparian Zone"
+        url: /plots/plot8/
+      - title: "Plot 9 – Urban Vegetation"
+        url: /plots/plot9/

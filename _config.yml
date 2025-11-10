@@ -1,0 +1,25 @@
+title: "ACUVEG Project"
+description: "Acoustic noise attenuation by vegetation"
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-include-cache
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      sidebar:
+        nav: "main"
+
+include:
+  - _pages
+  - assets/style.css
