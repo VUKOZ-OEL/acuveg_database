@@ -3,7 +3,7 @@ description: "Acoustic noise attenuation by vegetation"
 
 # Site URLs (important for GitHub Pages)
 url: "https://vukoz-oel.github.io"
-baseurl: "/ACUVEG"
+baseurl: "/acuveg_database"
 
 theme: minimal-mistakes-jekyll
 
@@ -24,6 +24,7 @@ defaults:
       author_profile: false
       sidebar:
         nav: "main"
+      pagination: false
 
 include:
   - _pages

@@ -4,6 +4,7 @@ title: "Project Details"
 permalink: /project_details/
 sidebar:
   nav: "main"
+pagination: false
 ---
 
 
