@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Plot 9 – Urban Vegetation"
+title: "Plot 9 – Road"
 sidebar:
   nav: "main"
 permalink: /plots/plot9/

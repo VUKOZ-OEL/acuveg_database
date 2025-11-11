@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Plot 7 – Meadow Edge"
+title: "Plot 7 – Mid-Age Mixed Forest"
 sidebar:
   nav: "main"
 permalink: /plots/plot7/

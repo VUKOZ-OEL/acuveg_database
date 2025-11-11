@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Plot 5 – Shrubland"
+title: "Plot 5 – Young Mixed Forest"
 sidebar:
   nav: "main"
 permalink: /plots/plot5/

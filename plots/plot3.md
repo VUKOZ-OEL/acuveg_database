@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Plot 3 – Mixed Deciduous"
+title: "Plot 3 – Mid-Age  Beech Forest"
 sidebar:
   nav: "main"
 permalink: /plots/plot3/

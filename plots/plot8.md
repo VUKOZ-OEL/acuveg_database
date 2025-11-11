@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Plot 8 – Riparian Zone"
+title: "Plot 8 – Old Mixed Forest"
 sidebar:
   nav: "main"
 permalink: /plots/plot8/

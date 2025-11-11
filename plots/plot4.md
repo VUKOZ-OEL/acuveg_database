@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Plot 4 – Pine Grove"
+title: "Plot 4 – Old  Beech Forest"
 sidebar:
   nav: "main"
 permalink: /plots/plot4/
