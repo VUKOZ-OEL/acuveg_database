@@ -30,4 +30,5 @@ defaults:
 
 include:
   - _pages
-  - assets/style.css
+  - assets
+  - _includes

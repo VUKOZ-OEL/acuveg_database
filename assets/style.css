@@ -7,7 +7,7 @@
 /* === Obsah stránky === */
 .page__content {
   max-width: 1200px;
-  font-size: 14px !important;       /* zmenšení těla textu */
+  font-size: 16px !important;       /* zmenšení těla textu */
   line-height: 1.65;
   color: #333;                      /* příjemně tmavý text */
 }
@@ -15,7 +15,7 @@
 /* Tělo textu – odstavce a seznamy */
 .page__content p,
 .page__content li {
-  font-size: 14px !important;
+  font-size: 16px !important;
   line-height: 1.65;
 }
 
