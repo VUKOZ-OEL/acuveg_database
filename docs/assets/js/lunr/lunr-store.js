@@ -1,6 +1,6 @@
 var store = [{
         "title": "Database",
-        "excerpt":"This page features preview of database, full web version is [here]()    Tha data can be downloaded in [tabular form](https://github.com/VUKOZ-OEL/AKUVEG/blob/main/database/database.txt). File includes detailed description of forest stand, noise attenuation measurement and LiDAR data derived variables.    ","categories": [],
+        "excerpt":"Tha full version of database can be downloaded here. Including detailed description of forest stand, noise attenuation measurement and LiDAR data (in a form of pre-processed point-clouds) and derived variables.   Data description  Will be filled according to final version of database …  ","categories": [],
         "tags": [],
         "url": "/acuveg_database/database/",
         "teaser": null

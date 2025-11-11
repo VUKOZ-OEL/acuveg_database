@@ -5,6 +5,7 @@ permalink: /
 sidebar:
   nav: "main"
 pagination: false
+show_prev_next: false
 ---
 
 The **ACUVEG** project studies how vegetation structure affects sound attenuation in various forest types.

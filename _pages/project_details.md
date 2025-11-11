@@ -5,6 +5,7 @@ permalink: /project_details/
 sidebar:
   nav: "main"
 pagination: false
+show_prev_next: false
 ---
 
 
@@ -22,7 +23,7 @@ TODO
 ### **NmetS** - Use of Natural Tree Species Strips for Traffic Noise Attenuation
 The methodology will focus on the optimal structure (tree species composition, spatial arrangement, and width) of natural tree species strips and define their effectiveness in noise attenuation, both seasonally (year-round) and throughout their life cycle (lifespan, rotation period). These structures will also be related to site conditions for their optimal installation along roads. The methodology will include guidelines for the establishment and maintenance of vegetative strips. This approved methodology will be available to professionals and the general public on the CDV website. A link to the methodology will also be available on the project’s (TAČR) website and potentially on the websites of other project participants or the Ministry of Transport.
 
-### **S**- Database of Tree Vegetation for Acoustic Noise Attenuation
+### **S** - Database of Tree Vegetation for Acoustic Noise Attenuation
 The database will serve as a practical tool for designing and comparing noise reduction measures. It will be an online catalog containing basic typification of noise-reducing strips with photographic documentation, economic calculations, detailed characteristics of the tree vegetation in the strip, a point cloud from laser scanning, a numerical 3D matrix describing vegetation density on a voxel basis, visualization of this 3D matrix as an image, and, of course, noise attenuation (effectiveness) for a given vegetative strip. A new website will be created for the result, with a link available on the websites of the project participants, the project (TAČR) website, and potentially the Ministry of Transport’s website.
 
 ### Recommendations for Updating the Technical Regulation of ŘSD
