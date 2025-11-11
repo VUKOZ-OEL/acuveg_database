@@ -6,6 +6,14 @@ sidebar:
 permalink: /plots/plot1/
 ---
 
-- **Location:** TBD  
-- **Dominant species:** TBD  
-- **Measured parameters:** canopy density, LAI, sound attenuation.
+**Description:**  
+  Age, ....  
+  
+**Species composition:**   
+  *Fagus silvatica* 100%  
+  
+**Measured parameters:**   
+  canopy density, height, attenuation, etc. tables plots  
+  
+**Plot Photohrapy**  
+**Leaf-on**  

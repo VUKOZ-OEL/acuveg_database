@@ -1,1 +1,1 @@
-Sitemap: https://vukoz-oel.github.io/acuveg_database/sitemap.xml
+Sitemap: http://localhost:4000/acuveg_database/sitemap.xml

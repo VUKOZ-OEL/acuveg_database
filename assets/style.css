@@ -4,7 +4,17 @@
 }
 .page__content {
   max-width: 1200px;
+  font-size: 10px;      /* výchozí je cca 18px */
+  line-height: 1.6;     /* příjemná čitelnost */
 }
 h1, h2, h3, a {
   color: #006c4f;
+}
+
+
+.page__content,
+.page__content p,
+.page__content li {
+  font-size: 14px !important;
+  line-height: 1.6;
 }
