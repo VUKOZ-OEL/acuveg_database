@@ -26,6 +26,7 @@ defaults:
       sidebar:
         nav: "main"
       pagination: false
+      show_prev_next: false
 
 include:
   - _pages

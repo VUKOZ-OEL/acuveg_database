@@ -1,6 +1,6 @@
 var store = [{
         "title": "Database",
-        "excerpt":"This page features preview of database, full web version is [here]()    Tha data can be downloaded in [tabular form](https://github.com/VUKOZ-OEL/AKUVEG/blob/main/database/database.txt). File includes detailed description of forest stand, noise attenuation measurement and LiDAR data derived variables.    ","categories": [],
+        "excerpt":"This page features preview of database, full web version is here   Tha data can be downloaded in tabular form. File includes detailed description of forest stand, noise attenuation measurement and LiDAR data derived variables.   ","categories": [],
         "tags": [],
         "url": "/acuveg_database/database/",
         "teaser": null
@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Project Details",
-        "excerpt":"## Introduction: The main concept of the prject is to identify suitable spatial and species compositions of vegetative strips of trees, which will be deliberately established to mitigate noise from transportation. The project's goal is to conduct repeated measurements at the same locations under different conditions. All research will be...","categories": [],
+        "excerpt":"Introduction: The main concept of the prject is to identify suitable spatial and species compositions of vegetative strips of trees, which will be deliberately established to mitigate noise from transportation. The project’s goal is to conduct repeated measurements at the same locations under different conditions. All research will be carried...","categories": [],
         "tags": [],
         "url": "/acuveg_database/project_details/",
         "teaser": null
