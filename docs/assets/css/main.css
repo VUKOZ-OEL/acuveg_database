@@ -1,7 +1,4 @@
 @charset "UTF-8";
-/* ==========================================================================
-   Default skin
-   ========================================================================== */
 /* Copyright comment */
 /*!
  * Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
@@ -5154,6 +5151,54 @@ body {
     display: none !important;
     height: 1px !important;
   }
+}
+/* ===== Excel tabulka – sladěná s Minimal Mistakes ===== */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table.excel {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.5rem;
+  background: #fff;
+}
+
+/* jemné ohraničení */
+table.excel th,
+table.excel td {
+  border: 1px solid #e5e5e5;
+  padding: 6px 8px;
+  text-align: center;
+}
+
+/* hlavička frekvencí */
+table.excel thead {
+  background: #f5f5f5;
+  color: #333;
+  font-weight: 600;
+}
+
+/* zebra efekt */
+table.excel tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* sekce (nahrazuje křiklavé barvy) */
+.page__content table.excel .section td {
+  text-align: center !important;
+  font-weight: 600;
+  background: #f0f3f2;
+  color: #005a38; /* tvá zelená z nadpisů */
+  border-top: 2px solid #dcdcdc;
+  border-bottom: 2px solid #dcdcdc;
+  letter-spacing: 0.2px;
+}
+
+/* vzdálenost (první sloupec) lehce zvýraznit */
+table.excel td:first-child {
+  font-weight: 500;
+  background: #f9f9f9;
 }
 
 /*# sourceMappingURL=main.css.map */

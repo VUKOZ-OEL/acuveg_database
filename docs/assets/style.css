@@ -38,3 +38,49 @@ h1, h2, h3 {
 nav.pagination {
   display: none !important;
 }
+
+/* === Excel tabulka === */
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table.excel {
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+table.excel th,
+table.excel td {
+  border: 1px solid #999;
+  padding: 4px 6px;
+  text-align: center;
+}
+
+table.excel thead {
+  background: #000;
+  color: #fff;
+}
+
+.page__content table.excel .section td {
+  text-align: center !important;
+  font-weight: bold;
+  color: #fff;
+}
+
+.section.vegetace td {
+  background: #7cb342;
+}
+
+.section.pas td {
+  background: #c62828;
+}
+
+.section.vzdalenost td {
+  background: #f9a825;
+}
+
+body {
+  background: red !important;
+}
