@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Project Details"
+title: "O projektu"
 permalink: /project_details/
 sidebar:
   nav: "main"
@@ -9,26 +9,29 @@ show_prev_next: false
 ---
 
 
-## Introduction:
+## Úvod:
 
-The main concept of the prject is to identify suitable spatial and species compositions of vegetative strips of trees, which will be deliberately established to mitigate noise from transportation. The project's goal is to conduct repeated measurements at the same locations under different conditions. All research will be carried out with respect to future road and rail safety, ensuring that no vegetation falls and endangers lives or property. Additionally, attention will be paid to climate change, as measurements will include structures expected to be in use 20-30 years from now.  
+Hlavní koncepcí projektu je identifikovat vhodné prostorové a druhové složení vegetačních pásů dřevin, které budou cíleně zakládány za účelem zmírnění dopravního hluku. Cílem projektu je provádět opakovaná měření na stejných lokalitách za různých podmínek. Veškerý výzkum bude realizován s ohledem na budoucí bezpečnost silniční a železniční dopravy tak, aby žádná vegetace nepředstavovala riziko pádu a ohrožení života či majetku. Zároveň bude zohledněna klimatická změna, protože měření budou zahrnovat struktury, u nichž se předpokládá využitelnost za 20–30 let.
 
-Acoustic measurements and laser scanning will take place at selected locations. The primary "model" measurements will occur at the Masaryk Forest Křtiny, where the noise source will be an omnidirectional Brüel & Kjær source. Real vegetation along roads will also be measured, with the noise source being the actual traffic. Based on these real-world measurements, the influence of individual parameters on noise attenuation will be identified, and a methodology for establishing tree strips near roads will be developed. A technical regulation (either one or multiple based on the requirements of the Ministry of Transport) will then be updated with the obtained information, which can also be used to update SŽ documents. The database will assist in designing noise reduction measures.
+Akustická měření a laserové skenování budou probíhat na vybraných lokalitách. Hlavní „modelová“ měření se uskuteční ve Školním lesním podniku Masarykův les Křtiny, kde zdrojem hluku bude všesměrový zdroj Brüel & Kjær. Měřena bude také reálná vegetace podél komunikací, kde zdrojem hluku bude skutečný dopravní provoz. Na základě těchto reálných měření bude identifikován vliv jednotlivých parametrů na útlum hluku a bude vypracována metodika pro zakládání pásů dřevin podél komunikací. Následně bude aktualizován technický předpis (jeden nebo více podle požadavků Ministerstva dopravy) o získané poznatky, které mohou být využity také pro aktualizaci dokumentů SŽ. Databáze bude sloužit jako podklad pro návrh protihlukových opatření.
 
-## Methodology
+## Metodika
 TODO
 
-## Project Results:
+## Výsledky projektu:
 
-### **NmetS** - Use of Natural Tree Species Strips for Traffic Noise Attenuation
-The methodology will focus on the optimal structure (tree species composition, spatial arrangement, and width) of natural tree species strips and define their effectiveness in noise attenuation, both seasonally (year-round) and throughout their life cycle (lifespan, rotation period). These structures will also be related to site conditions for their optimal installation along roads. The methodology will include guidelines for the establishment and maintenance of vegetative strips. This approved methodology will be available to professionals and the general public on the CDV website. A link to the methodology will also be available on the project’s (TAČR) website and potentially on the websites of other project participants or the Ministry of Transport.
+### NmetS – Využití pásů přirozených dřevin pro tlumení dopravního hluku
+Metodika se zaměří na optimální strukturu (druhové složení dřevin, prostorové uspořádání a šířku) pásů přirozených dřevin a vymezí jejich účinnost při tlumení hluku, a to jak sezónně (v průběhu roku), tak v průběhu jejich životního cyklu (životnost, obmýtí). Tyto struktury budou zároveň vztaženy k stanovištním podmínkám pro jejich optimální zakládání podél komunikací. Metodika bude obsahovat doporučení pro zakládání a údržbu vegetačních pásů. Schválená metodika bude dostupná odborné i laické veřejnosti na webových stránkách CDV. Odkaz na metodiku bude rovněž uveden na webu projektu (TAČR) a případně na webových stránkách dalších účastníků projektu nebo Ministerstva dopravy.
 
-### **S** - Database of Tree Vegetation for Acoustic Noise Attenuation
-The database will serve as a practical tool for designing and comparing noise reduction measures. It will be an online catalog containing basic typification of noise-reducing strips with photographic documentation, economic calculations, detailed characteristics of the tree vegetation in the strip, a point cloud from laser scanning, a numerical 3D matrix describing vegetation density on a voxel basis, visualization of this 3D matrix as an image, and, of course, noise attenuation (effectiveness) for a given vegetative strip. A new website will be created for the result, with a link available on the websites of the project participants, the project (TAČR) website, and potentially the Ministry of Transport’s website.
+### S – Databáze dřevinné vegetace pro akustické tlumení hluku
+Databáze bude sloužit jako praktický nástroj pro návrh a porovnávání protihlukových opatření. Půjde o online katalog obsahující základní typizaci protihlukových pásů s fotodokumentací, ekonomickými kalkulacemi, podrobnou charakteristikou dřevinné vegetace v pásu, bodovým mračnem z laserového skenování, numerickou 3D maticí popisující hustotu vegetace na úrovni voxelů, vizualizací této 3D matice ve formě obrazu a samozřejmě také hodnotami útlumu hluku (účinnosti) pro daný vegetační pás.
 
-### Recommendations for Updating the Technical Regulation of ŘSD
-Technical findings from the research will be summarized in the form of recommendations. The results will then be applied in updating one of the regulations that deals with vegetation or noise barriers near roads (such as TP 99, TP 104, or TKP 25), in connection with the current development of legislation and the current requirements of ŘSD, which prepares these regulations, with the Ministry of Transport being their guarantor. The result will be part of the technical regulations accessible to professionals and the general public at http://www.pjpk.cz/.
+Pro tento výsledek bude vytvořena nová webová stránka s odkazem dostupným na stránkách účastníků projektu, na webu projektu (TAČR) a případně na webových stránkách Ministerstva dopravy.
 
-Contact:
+### Doporučení pro aktualizaci technických předpisů ŘSD
+
+Technická zjištění z výzkumu budou shrnuta ve formě doporučení. Výsledky budou následně aplikovány při aktualizaci některého z předpisů, které se zabývají vegetací nebo protihlukovými stěnami podél komunikací (např. TP 99, TP 104 nebo TKP 25), a to v návaznosti na aktuální legislativní vývoj a současné požadavky ŘSD, které tyto předpisy připravuje, přičemž jejich garantem je Ministerstvo dopravy. Výsledek bude součástí technických předpisů dostupných odborné i laické veřejnosti na adrese http://www.pjpk.cz/.
+
+Kontakt:
 Ing. Blanka Hablovičová
 blanka.hablovicova@cdv.cz

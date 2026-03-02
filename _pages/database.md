@@ -8,7 +8,7 @@ sidebar:
 show_prev_next: false
 ---
 
-Tha full version of database can be downloaded <a href="https://zenodo.org/" target="_blank" rel="noopener noreferrer"><strong>here</strong></a>. Including detailed description of forest stand, noise attenuation measurement and LiDAR data (in a form of pre-processed point-clouds) and derived variables.  
+Plnou verzi databáze lze stáhnout <a href="https://zenodo.org/" target="_blank" rel="noopener noreferrer"><strong>zde</strong></a>. Obsahuje detailní popis lesního porostu, měření útlumu hluku a LiDAR data (ve formě předzpracovaných bodových mračen) a odvozené proměnné.  
 
-## Data description  
-Will be filled according to final version of database ...
+## Popis dat  
+Bude doplněno podle finální verze databáze ...

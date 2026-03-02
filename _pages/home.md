@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ACUVEG Project - Acoustic Noise Attenuation by Vegetation"
+title: "ACUVEG - Útlum hluku vegetací"
 permalink: /
 sidebar:
   nav: "main"
@@ -8,9 +8,9 @@ pagination: false
 show_prev_next: false
 ---
 
-The **ACUVEG** project studies how vegetation structure affects sound attenuation in various forest types.
+Projekt **ACUVEG** zkoumá, jak struktura vegetace ovlivňuje útlum zvuku v různých typech lesů.
 
-The aim of the project "***Determination and optimization of vegetation belts of natural woody composition serving to traffic noise attenuation.***" is to develop a public methodology on the use of vegetation belts for traffic noise attenuation and an accompanying illustrative database. Further partial research information obtained will be used for the modifications of the technical regulations. The main idea is to find a suitable spatial and species composition of woody plants, which will be established specifically to attenuate traffic noise. Measurements will focus on different woody species composition, spatial structure and density, phenological phase, width and height of belts, etc. Vegetation stands that are expected to be usable in at least 20-30 years will be examined with respect to climate change. Vegetation can also be assumed to have another significant ecological and (bio)climatological function.  
+Cílem projektu "***Stanovení a optimalizace vegetačních pásů přirozené dřevinné skladby sloužících k útlumu hluku z dopravy***" je vyvinout veřejně dostupnou metodiku využití vegetačních pásů pro tlumení dopravního hluku a odpovídající ilustrační databázi. Další dílčí výzkumné poznatky budou využity pro úpravy technických předpisů. Hlavní myšlenkou je nalézt vhodné prostorové a druhové složení dřevin, které bude cíleně zakládáno za účelem snížení dopravního hluku. Měření se zaměří na různé druhové složení dřevin, prostorovou strukturu a hustotu, fenologickou fázi, šířku a výšku pásů apod. Zkoumány budou porosty s předpokládanou využitelností minimálně 20–30 let s ohledem na klimatickou změnu. Vegetace může mít zároveň i další významné ekologické a (bio)klimatologické funkce.
 
 
 <img src="{{ '/assets/images/nextgen_logo.jpg' | relative_url }}" alt="NextGen Logo" style="margin-right: 30px; height: 80px;">

@@ -1,18 +1,18 @@
 var store = [{
         "title": "Database",
-        "excerpt":"Tha full version of database can be downloaded here. Including detailed description of forest stand, noise attenuation measurement and LiDAR data (in a form of pre-processed point-clouds) and derived variables.   Data description  Will be filled according to final version of database …  ","categories": [],
+        "excerpt":"Plnou verzi databáze lze stáhnout zde. Obsahuje detailní popis lesního porostu, měření útlumu hluku a LiDAR data (ve formě předzpracovaných bodových mračen) a odvozené proměnné.   Popis dat  Bude doplněno podle finální verze databáze …  ","categories": [],
         "tags": [],
         "url": "/acuveg_database/database/",
         "teaser": null
       },{
-        "title": "ACUVEG Project - Acoustic Noise Attenuation by Vegetation",
-        "excerpt":"The ACUVEG project studies how vegetation structure affects sound attenuation in various forest types. The aim of the project “Determination and optimization of vegetation belts of natural woody composition serving to traffic noise attenuation.” is to develop a public methodology on the use of vegetation belts for traffic noise attenuation...","categories": [],
+        "title": "ACUVEG - Útlum hluku vegetací",
+        "excerpt":"Projekt ACUVEG zkoumá, jak struktura vegetace ovlivňuje útlum zvuku v různých typech lesů. Cílem projektu “Stanovení a optimalizace vegetačních pásů přirozené dřevinné skladby sloužících k útlumu hluku z dopravy” je vyvinout veřejně dostupnou metodiku využití vegetačních pásů pro tlumení dopravního hluku a odpovídající ilustrační databázi. Další dílčí výzkumné poznatky budou...","categories": [],
         "tags": [],
         "url": "/acuveg_database/",
         "teaser": null
       },{
-        "title": "Project Details",
-        "excerpt":"Introduction: The main concept of the prject is to identify suitable spatial and species compositions of vegetative strips of trees, which will be deliberately established to mitigate noise from transportation. The project’s goal is to conduct repeated measurements at the same locations under different conditions. All research will be carried...","categories": [],
+        "title": "O projektu",
+        "excerpt":"Úvod: Hlavní koncepcí projektu je identifikovat vhodné prostorové a druhové složení vegetačních pásů dřevin, které budou cíleně zakládány za účelem zmírnění dopravního hluku. Cílem projektu je provádět opakovaná měření na stejných lokalitách za různých podmínek. Veškerý výzkum bude realizován s ohledem na budoucí bezpečnost silniční a železniční dopravy tak, aby...","categories": [],
         "tags": [],
         "url": "/acuveg_database/project_details/",
         "teaser": null
