@@ -18,61 +18,6 @@ permalink: /plots/plot1/
   <li><strong>Datum měření:</strong> {{ lokalita.datum_mereni | date: "%d.%m.%Y" }}</li>
 </ul>
 
-## Meteorologická data
-{% assign data = site.data.meteodata.plot1 %}
-
-<div class="table-wrapper">
-<table class="excel">
-
-  <thead>
-    <tr>
-      <th>Vzdálenost (m)</th>
-      <th>Čas měření</th>
-      <th>Teplota (°C)</th>
-      <th>Tlak (hPa)</th>
-      <th>Oblačnost (%)</th>
-      <th>Vítr</th>
-      <th>Vlhkost (%)</th>
-    </tr>
-  </thead>
-
-  <tbody>
-
-  {% assign sekce_list = data | map: "sekce" | uniq %}
-
-  {% for sekce in sekce_list %}
-
-    <!-- Sekční nadpis -->
-    <tr class="section">
-      <td colspan="7">
-        {% if sekce == "vege" %}
-          Vegetační sezóna
-        {% elsif sekce == "mimo" %}
-          Mimo vegetační sezónu
-        {% endif %}
-      </td>
-    </tr>
-
-    {% for row in data %}
-      {% if row.sekce == sekce %}
-      <tr>
-        <td>{{ row.vzdalenost_m }}</td>
-        <td>{{ row.cas_mereni }}</td>
-        <td>{{ row.teplota_C }}</td>
-        <td>{{ row.tlak_hPa }}</td>
-        <td>{{ row.oblacnost_pct }}</td>
-        <td style="text-align:left;">{{ row.vitr }}</td>
-        <td>{{ row.vlhkost_pct }}</td>
-      </tr>
-      {% endif %}
-    {% endfor %}
-
-  {% endfor %}
-
-  </tbody>
-</table>
-</div>
-
 ## Měřené hodnoty hluku - Vegetační sezóna
 {% assign data = site.data.noise.plot1_on %}
 
@@ -190,7 +135,138 @@ permalink: /plots/plot1/
   </tbody>
 </table>
 </div>
-  
+
+## Strukturní charakteristiky derivované z laserového skenování
+{% assign data = site.data.lidar.plot1 %}
+
+<div class="table-wrapper">
+<table class="excel">
+
+  <thead>
+
+    <!-- 1. řádek hlavičky -->
+    <tr>
+      <th rowspan="2">Stav</th>
+      <th colspan="3">Pokryvnost 0–2,5 m (%)</th>
+      <th colspan="3">Pokryvnost 0–5,5 m (%)</th>
+      <th colspan="3">Pokryvnost 0–p98 (%)</th>
+      <th colspan="3">Výškové charakteristiky (m)</th>
+      <th colspan="4">Struktura</th>
+    </tr>
+
+    <!-- 2. řádek hlavičky -->
+    <tr>
+      <th>0–7,5 m</th>
+      <th>0–15 m</th>
+      <th>0–30 m</th>
+
+      <th>0–7,5 m</th>
+      <th>0–15 m</th>
+      <th>0–30 m</th>
+
+      <th>0–7,5 m</th>
+      <th>0–15 m</th>
+      <th>0–30 m</th>
+
+      <th>Max. výška</th>
+      <th>p98 koruny</th>
+      <th>Průměrná výška koruny</th>
+
+      <th>Průměrná výška voxelů</th>
+      <th>Směrodatná odchylka</th>
+      <th>Koeficient variability</th>
+      <th>Index vertikální diverzity</th>
+    </tr>
+
+  </thead>
+
+  <tbody>
+    {% for row in data %}
+    <tr>
+      <td>{{ row.stav }}</td>
+
+      <td>{{ row["0-2.5_0-7.5"] }}</td>
+      <td>{{ row["0-2.5_0-15"] }}</td>
+      <td>{{ row["0-2.5_0-30"] }}</td>
+
+      <td>{{ row["0-5.5_0-7.5"] }}</td>
+      <td>{{ row["0-5.5_0-15"] }}</td>
+      <td>{{ row["0-5.5_0-30"] }}</td>
+
+      <td>{{ row["0-p98_0-7.5"] }}</td>
+      <td>{{ row["0-p98_0-15"] }}</td>
+      <td>{{ row["0-p98_0-30"] }}</td>
+
+      <td>{{ row.max_height }}</td>
+      <td>{{ row.p98_canopy }}</td>
+      <td>{{ row.mean_canopy_height }}</td>
+
+      <td>{{ row.mean_voxel_height }}</td>
+      <td>{{ row.sd_voxel_height }}</td>
+      <td>{{ row.cv_voxel_height }}</td>
+      <td>{{ row.FHD }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+
+</table>
+</div>
+
+## Meteorologická data
+{% assign data = site.data.meteodata.plot1 %}
+
+<div class="table-wrapper">
+<table class="excel">
+
+  <thead>
+    <tr>
+      <th>Vzdálenost (m)</th>
+      <th>Čas měření</th>
+      <th>Teplota (°C)</th>
+      <th>Tlak (hPa)</th>
+      <th>Oblačnost (%)</th>
+      <th>Vítr</th>
+      <th>Vlhkost (%)</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+  {% assign sekce_list = data | map: "sekce" | uniq %}
+
+  {% for sekce in sekce_list %}
+
+    <!-- Sekční nadpis -->
+    <tr class="section">
+      <td colspan="7">
+        {% if sekce == "vege" %}
+          Vegetační sezóna
+        {% elsif sekce == "mimo" %}
+          Mimo vegetační sezónu
+        {% endif %}
+      </td>
+    </tr>
+
+    {% for row in data %}
+      {% if row.sekce == sekce %}
+      <tr>
+        <td>{{ row.vzdalenost_m }}</td>
+        <td>{{ row.cas_mereni }}</td>
+        <td>{{ row.teplota_C }}</td>
+        <td>{{ row.tlak_hPa }}</td>
+        <td>{{ row.oblacnost_pct }}</td>
+        <td style="text-align:left;">{{ row.vitr }}</td>
+        <td>{{ row.vlhkost_pct }}</td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+
+  {% endfor %}
+
+  </tbody>
+</table>
+</div>
+
 ## Fotogalerie  
 ### Ve vegetační sezóně
 
@@ -207,7 +283,6 @@ permalink: /plots/plot1/
 {% endfor %}
 
 </div>
-
 
 ### Mimo vegetační sezónu  
 
