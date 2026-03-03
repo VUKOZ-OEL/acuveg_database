@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Plot 9 – Silnice"
+title: "Plot 11 – Referenční měření – otevřené pole"
 sidebar:
   nav: "main"
-permalink: /plots/plot9/
+permalink: /plots/plot11/
 ---
 
 ## Popis  

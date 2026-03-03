@@ -8,25 +8,21 @@ main:
     url: /database/
   - title: "Výzkumné plochy"
     children:
-      - title: "Plocha 1 – Mladý bukový les"
+      - title: "Plocha 1 –Bukový les - Mladý"
         url: /plots/plot1/
-      - title: "Plocha 2 – Dospělý bukový les"
+      - title: "Plocha 2 – Bukový les - Odrostlý"
         url: /plots/plot2/
-      - title: "Plocha 3 – Bukový les středního věku"
+      - title: "Plocha 3 – Bukový les -  Středněvěký"
         url: /plots/plot3/
-      - title: "Plocha 4 – Starý bukový les"
+      - title: "Plocha 4 – Bukový les - Zralý"
         url: /plots/plot4/
-      - title: "Plocha 5 – Mladý smíšený les"
+      - title: "Plocha 5 – Smíšený les - Mladý"
         url: /plots/plot5/
-      - title: "Plocha 6 – Dospělý smíšený les"
+      - title: "Plocha 6 – Smíšený les - Odrostlý"
         url: /plots/plot6/
-      - title: "Plocha 7 – Smíšený les středního věku"
+      - title: "Plocha 7 – Středního věku - Středněvěký"
         url: /plots/plot7/
-      - title: "Plocha 8 – Starý smíšený les"
+      - title: "Plocha 8 – Smíšený les - Zralý"
         url: /plots/plot8/
-      - title: "Plocha 9 – Silnice"
+      - title: "Plocha 9 – Otevřené pole"
         url: /plots/plot9/
-      - title: "Plocha 10 – Železnice"
-        url: /plots/plot10/
-      - title: "Plocha 11 – Otevřené pole"
-        url: /plots/plot11/
