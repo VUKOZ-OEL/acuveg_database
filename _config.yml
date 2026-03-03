@@ -9,6 +9,8 @@ permalink: pretty
 
 theme: minimal-mistakes-jekyll
 
+destination: docs
+
 plugins:
   - jekyll-include-cache
 
