@@ -3,7 +3,7 @@ name: Build and Deploy Jekyll site
 on:
   push:
     branches:
-      - main  # nebo main – podle toho, odkud chceš nasazovat
+      - dev  # nebo main – podle toho, odkud chceš nasazovat
 
 permissions:
   contents: read
