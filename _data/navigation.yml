@@ -9,7 +9,7 @@ main:
   - title: "Výzkumné plochy"
     children:
       - title: "Plocha 1 –Bukový les - Mladý"
-        url: /plots/plot1/
+        url: /plots/plot1
       - title: "Plocha 2 – Bukový les - Odrostlý"
         url: /plots/plot2/
       - title: "Plocha 3 – Bukový les -  Středněvěký"

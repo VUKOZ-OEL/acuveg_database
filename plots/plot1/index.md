@@ -3,7 +3,6 @@ layout: single
 title: "Plocha 1 – Mladý bukový les
 sidebar:
   nav: "main"
-permalink: /plots/plot1/
 ---
 
 
