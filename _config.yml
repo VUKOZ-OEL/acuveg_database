@@ -5,15 +5,12 @@ description: "Útlum hluku vegetací"
 url: "https://vukoz-oel.github.io"
 baseurl: "/acuveg_database"
 
+permalink: pretty
+
 theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-include-cache
-
-collections:
-  pages:
-    output: true
-    permalink: /:path/
 
 defaults:
   - scope:
