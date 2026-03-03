@@ -4,7 +4,6 @@ description: "Útlum hluku vegetací"
 # Site URLs (important for GitHub Pages)
 url: "https://vukoz-oel.github.io"
 baseurl: "/acuveg_database"
-destination: docs
 
 theme: minimal-mistakes-jekyll
 
