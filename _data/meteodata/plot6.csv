@@ -1,0 +1,7 @@
+sekce,vzdalenost_m,cas_mereni,teplota_C,tlak_hPa,oblacnost_pct,vitr,vlhkost_pct
+vege,7.5,"13:01–13:44",27.4,953.2,80,"jihovýchodní, rychlost do 4 m/s",50
+vege,15,"14:02–14:47",26.2,952.7,80,"jihovýchodní, rychlost do 4 m/s",53
+vege,30,"11:05–11:48",26.3,953.6,80,"jihovýchodní, rychlost do 3,5 m/s",54
+mimo,7.5,"10:10–10:25",5.4,954.5,0,"jihovýchodní, rychlost do 3 m/s",74
+mimo,15,"9:44–9:58",4.8,954.2,0,"jihovýchodní, rychlost do 3 m/s",78
+mimo,30,"9:11–9:27",4.0,954.1,0,"jihovýchodní, rychlost do 3 m/s",80

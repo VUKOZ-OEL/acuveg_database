@@ -8,30 +8,111 @@ pagination: false
 show_prev_next: false
 ---
 
+## Úvod
 
-## Úvod:
+Projekt CL01000058 „Stanovení a optimalizace vegetačních pásů přirozené dřevinné skladby sloužících k útlumu hluku z dopravy“ byl realizován s cílem stanovit odborně podložený postup pro návrh, zakládání a hodnocení vegetačních pásů jako doplňkového protihlukového opatření.
 
-Hlavní koncepcí projektu je identifikovat vhodné prostorové a druhové složení vegetačních pásů dřevin, které budou cíleně zakládány za účelem zmírnění dopravního hluku. Cílem projektu je provádět opakovaná měření na stejných lokalitách za různých podmínek. Veškerý výzkum bude realizován s ohledem na budoucí bezpečnost silniční a železniční dopravy tak, aby žádná vegetace nepředstavovala riziko pádu a ohrožení života či majetku. Zároveň bude zohledněna klimatická změna, protože měření budou zahrnovat struktury, u nichž se předpokládá využitelnost za 20–30 let.
+Hlavním výstupem projektu je metodika **„Použití vegetačních pásů přirozené dřevinné skladby pro útlum hluku z dopravy“**, schválená Ministerstvem dopravy ČR :contentReference[oaicite:1]{index=1}. Metodika systematicky popisuje přímé i nepřímé mechanismy působení vegetace na šíření hluku ze silniční a železniční dopravy, stanovuje zásady návrhu pásů dřevin a vymezuje jejich účinnost i omezení.
 
-Akustická měření a laserové skenování budou probíhat na vybraných lokalitách. Hlavní „modelová“ měření se uskuteční ve Školním lesním podniku Masarykův les Křtiny, kde zdrojem hluku bude všesměrový zdroj Brüel & Kjær. Měřena bude také reálná vegetace podél komunikací, kde zdrojem hluku bude skutečný dopravní provoz. Na základě těchto reálných měření bude identifikován vliv jednotlivých parametrů na útlum hluku a bude vypracována metodika pro zakládání pásů dřevin podél komunikací. Následně bude aktualizován technický předpis (jeden nebo více podle požadavků Ministerstva dopravy) o získané poznatky, které mohou být využity také pro aktualizaci dokumentů SŽ. Databáze bude sloužit jako podklad pro návrh protihlukových opatření.
+Výzkum zahrnoval opakovaná akustická měření, analýzu prostorové struktury porostů pomocí pozemního laserového skenování (TLS) a vyhodnocení vlivu šířky pásu, hustoty a vertikální struktury vegetace na útlum hluku. Hodnoceny byly různé vývojové fáze porostů a jejich strukturální parametry.
 
-## Metodika
-TODO
+Projekt byl realizován s ohledem na:
+- bezpečnost silniční a železniční dopravy,
+- dlouhodobou stabilitu porostů,
+- adaptaci na klimatickou změnu,
+- ekonomické a environmentální souvislosti protihlukových opatření.
 
-## Výsledky projektu:
+---
 
-### NmetS – Využití pásů přirozených dřevin pro tlumení dopravního hluku
-Metodika se zaměří na optimální strukturu (druhové složení dřevin, prostorové uspořádání a šířku) pásů přirozených dřevin a vymezí jejich účinnost při tlumení hluku, a to jak sezónně (v průběhu roku), tak v průběhu jejich životního cyklu (životnost, obmýtí). Tyto struktury budou zároveň vztaženy k stanovištním podmínkám pro jejich optimální zakládání podél komunikací. Metodika bude obsahovat doporučení pro zakládání a údržbu vegetačních pásů. Schválená metodika bude dostupná odborné i laické veřejnosti na webových stránkách CDV. Odkaz na metodiku bude rovněž uveden na webu projektu (TAČR) a případně na webových stránkách dalších účastníků projektu nebo Ministerstva dopravy.
+## Metodika (NmetS)
+
+Metodika stanovuje jednotný postup pro:
+
+- návrh vegetačních pásů přirozené dřevinné skladby,
+- jejich zakládání (preferenčně lesnickým způsobem),
+- péči a dlouhodobou údržbu,
+- hodnocení akustické účinnosti,
+- respektování bezpečnostních a legislativních omezení.
+
+Bylo prokázáno, že:
+
+- Vegetační pásy nepůsobí jako neprůzvučná bariéra, ale snižují hluk kombinací absorpce, rozptylu, difrakce a vícenásobných odrazů.
+- Útlum hluku významně závisí na šířce pásu, hustotě porostu a vyplnění výškových pater.
+- Vertikální strukturální diverzita má větší vliv než samotná druhová skladba.
+- Minimální doporučená šířka pásu je 15 m.
+- Účinnost vegetace je nižší než u technických opatření (např. protihlukové clony), ale má významný doplňkový a psychologický efekt.
+
+Metodika rovněž detailně řeší:
+- prostorové nároky vegetace,
+- ochranná pásma silnic a drah,
+- minimální vzdálenosti výsadeb,
+- režimy kontrol a bezpečnostní opatření,
+- ekonomické aspekty včetně ocenění externalit.
+
+Metodika je určena projektantům, správcům a vlastníkům dopravní infrastruktury, zástupcům veřejné správy i odborné veřejnosti.
+
+---
+
+## Výsledky projektu
+
+### NmetS – Metodika pro využití pásů přirozených dřevin k tlumení dopravního hluku
+
+Schválená metodika poskytuje:
+
+- návrhový rámec pro prostorové a druhové uspořádání pásů,
+- doporučení pro zakládání a údržbu porostů,
+- postup hodnocení účinnosti vegetačních pásů,
+- podklady pro aktualizaci technických předpisů.
+
+Metodika je dostupná odborné i laické veřejnosti na tomto <a href="https://shopcdv.cz/products/pouziti-vegetacnich-pasu-prirozene-drevinne-skladby-pro-utlum-hluku-z-dopravy" target="_blank" rel="noopener noreferrer"><strong>odkazu.</strong></a>.
+
+---
 
 ### S – Databáze dřevinné vegetace pro akustické tlumení hluku
-Databáze bude sloužit jako praktický nástroj pro návrh a porovnávání protihlukových opatření. Půjde o online katalog obsahující základní typizaci protihlukových pásů s fotodokumentací, ekonomickými kalkulacemi, podrobnou charakteristikou dřevinné vegetace v pásu, bodovým mračnem z laserového skenování, numerickou 3D maticí popisující hustotu vegetace na úrovni voxelů, vizualizací této 3D matice ve formě obrazu a samozřejmě také hodnotami útlumu hluku (účinnosti) pro daný vegetační pás.
 
-Pro tento výsledek bude vytvořena nová webová stránka s odkazem dostupným na stránkách účastníků projektu, na webu projektu (TAČR) a případně na webových stránkách Ministerstva dopravy.
+V rámci projektu byla vytvořena online databáze vegetačních pásů určených pro akustické hodnocení.
 
-### Doporučení pro aktualizaci technických předpisů ŘSD
+Databáze obsahuje:
 
-Technická zjištění z výzkumu budou shrnuta ve formě doporučení. Výsledky budou následně aplikovány při aktualizaci některého z předpisů, které se zabývají vegetací nebo protihlukovými stěnami podél komunikací (např. TP 99, TP 104 nebo TKP 25), a to v návaznosti na aktuální legislativní vývoj a současné požadavky ŘSD, které tyto předpisy připravuje, přičemž jejich garantem je Ministerstvo dopravy. Výsledek bude součástí technických předpisů dostupných odborné i laické veřejnosti na adrese http://www.pjpk.cz/.
+- typizaci vegetačních pásů,
+- fotodokumentaci,
+- výsledky akustických měření,
+- bodová mračna z laserového skenování,
+- 3D voxelovou matici hustoty vegetace,
+- vizualizace prostorové struktury,
+- ekonomické porovnání s klasickými protihlukovými opatřeními.
 
-Kontakt:
-Ing. Blanka Hablovičová
+Databáze slouží jako praktický nástroj pro návrh a porovnávání variant protihlukových opatření.
+
+---
+
+### Doporučení pro aktualizaci technických předpisů
+
+Výsledky projektu byly shrnuty do doporučení pro aktualizaci technických předpisů týkajících se:
+
+- vegetace podél komunikací,
+- protihlukových opatření,
+- kombinovaných řešení (technická opatření + vegetace).
+
+Metodika přináší nový, dosud v předpisech systematicky nezpracovaný pohled na využití vegetačních pásů jako doplňkového akustického opatření.
+
+---
+
+## Přínosy projektu
+
+Projekt přinesl:
+
+- kvantifikaci vlivu struktury vegetace na útlum hluku,
+- propojení akustických měření a 3D strukturální analýzy,
+- jednotný metodický rámec pro praxi,
+- podklady pro ekonomické hodnocení externalit,
+- nástroj pro udržitelné plánování protihlukových opatření.
+
+Vegetace byla potvrzena jako smysluplné doplňkové opatření s významnými vedlejšími benefity (zlepšení mikroklimatu, záchyt polutantů, zvýšení biodiverzity, psychologický efekt).
+
+---
+
+## Kontakt
+
+Ing. Blanka Hablovičová  
 blanka.hablovicova@cdv.cz

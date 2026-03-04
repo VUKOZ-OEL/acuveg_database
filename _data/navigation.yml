@@ -8,21 +8,21 @@ main:
     url: /database/
   - title: "Výzkumné plochy"
     children:
-      - title: "Plocha 1 –Bukový les - Mladý"
+      - title: "Hospodaření v buku - Mladý porost"
         url: /plots/plot1
-      - title: "Plocha 2 – Bukový les - Odrostlý"
+      - title: "Hospodaření v buku - Odrostlý porost"
         url: /plots/plot2/
-      - title: "Plocha 3 – Bukový les -  Středněvěký"
+      - title: "Hospodaření v buku -  Středněvěký porost"
         url: /plots/plot3/
-      - title: "Plocha 4 – Bukový les - Zralý"
+      - title: "Hospodaření v buku - Zralý porost"
         url: /plots/plot4/
-      - title: "Plocha 5 – Smíšený les - Mladý"
+      - title: "Les trvale tvořivý - Mladý porost"
         url: /plots/plot5/
-      - title: "Plocha 6 – Smíšený les - Odrostlý"
+      - title: "Les trvale tvořivý - Odrostlý porost"
         url: /plots/plot6/
-      - title: "Plocha 7 – Středního věku - Středněvěký"
+      - title: "Les trvale tvořivý - Středněvěký porost"
         url: /plots/plot7/
-      - title: "Plocha 8 – Smíšený les - Zralý"
+      - title: "Les trvale tvořivý - Zralý porost"
         url: /plots/plot8/
-      - title: "Plocha 9 – Otevřené pole"
+      - title: "Volné pole"
         url: /plots/plot9/
