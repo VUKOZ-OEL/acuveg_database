@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Database"
+title: "Databáze měřených dat"
 permalink: /database/
 sidebar:
   nav: "main"
