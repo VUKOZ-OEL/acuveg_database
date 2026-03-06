@@ -14,6 +14,8 @@ destination: docs
 plugins:
   - jekyll-include-cache
 
+paginate_path: /page:num/
+
 defaults:
   - scope:
       path: ""
