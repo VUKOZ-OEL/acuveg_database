@@ -32,3 +32,9 @@ include:
   - _pages
   - assets
   - _includes
+
+footer:
+  links: []
+
+locale: cs-CZ
+search: true

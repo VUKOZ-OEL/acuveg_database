@@ -6,7 +6,7 @@
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 
-<html lang="en" class="no-js">
+<html lang="cs-CZ" class="no-js">
   <head>
     <meta charset="utf-8">
 
@@ -16,7 +16,7 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="cs_CZ">
 <meta property="og:site_name" content="ACUVEG">
 <meta property="og:title" content="ACUVEG - Útlum hluku vegetací">
 <meta property="og:url" content="https://vukoz-oel.github.io/acuveg_database/">
@@ -84,9 +84,9 @@
   <body class="layout--single wide" dir="ltr">
     <nav class="skip-links">
   <ul>
-    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Přejít na hlavní navigace</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Přejít na obsah</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Přejít na zápatí</a></li>
   </ul>
 </nav>
 
@@ -115,8 +115,13 @@
               >Výzkumné plochy</a>
             </li></ul>
         
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Přepnout zobrazení vyhledávání</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
+          <span class="visually-hidden">Přepnout zobrazení menu</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
@@ -148,7 +153,7 @@
       <nav class="nav__list">
   
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">Toggle Menu</label>
+  <label for="ac-toc">Přepnout zobrazení menu</label>
   <ul class="nav__items">
     
       
@@ -230,10 +235,13 @@
         
         <p>Projekt <strong>ACUVEG</strong> zkoumá, jak struktura vegetace ovlivňuje útlum zvuku v různých typech lesů.</p>
 
-<p>Cílem projektu “<strong><em>Stanovení a optimalizace vegetačních pásů přirozené dřevinné skladby sloužících k útlumu hluku z dopravy</em></strong>” je vyvinout veřejně dostupnou metodiku využití vegetačních pásů pro tlumení dopravního hluku a odpovídající ilustrační databázi. Další dílčí výzkumné poznatky budou využity pro úpravy technických předpisů. Hlavní myšlenkou je nalézt vhodné prostorové a druhové složení dřevin, které bude cíleně zakládáno za účelem snížení dopravního hluku. Měření se zaměří na různé druhové složení dřevin, prostorovou strukturu a hustotu, fenologickou fázi, šířku a výšku pásů apod. Zkoumány budou porosty s předpokládanou využitelností minimálně 20–30 let s ohledem na klimatickou změnu. Vegetace může mít zároveň i další významné ekologické a (bio)klimatologické funkce.</p>
+<p>Cílem projektu “<strong>Stanovení a optimalizace vegetačních pásů přirozené dřevinné skladby sloužících k útlumu hluku z dopravy</strong>” je vyvinout veřejně dostupnou metodiku využití vegetačních pásů pro tlumení dopravního hluku a odpovídající ilustrační databázi. Další dílčí výzkumné poznatky budou využity pro úpravy technických předpisů. Hlavní myšlenkou je nalézt vhodné prostorové a druhové složení dřevin, které bude cíleně zakládáno za účelem snížení dopravního hluku. Měření se zaměří na různé druhové složení dřevin, prostorovou strukturu a hustotu, fenologickou fázi, šířku a výšku pásů apod. Zkoumány budou porosty s předpokládanou využitelností minimálně 20–30 let s ohledem na klimatickou změnu. Vegetace může mít zároveň i další významné ekologické a (bio)klimatologické funkce.<br />
+ Tento projekt Stanovení a optimalizace vegetačních pásů přirozené dřevinné skladby sloužících k útlumu hluku z dopravy je spolufinancován se státní podporou Technologické agentury ČR a Ministerstva dopravy ČR v rámci Programu DOPRAVA 2030. Tento projekt je financován v rámci Národního plánu obnovy z evropského Nástroje pro oživení a odolnost.</p>
 
-<p><img src="/acuveg_database/assets/images/nextgen_logo.jpg" alt="NextGen Logo" style="margin-right: 30px; height: 80px;" />
-<img src="/acuveg_database/assets/images/tacr_logo.png" alt="TACR Logo" style="height: 80px;" /></p>
+<p><img src="/acuveg_database/assets/images/nextgen_logo.png" alt="NextGen Logo" style="margin-right: 30px; height: 80px;" />
+<a href="https://tacr.gov.cz/" target="_blank">
+  <img src="/acuveg_database/assets/images/tacr_logo.png" alt="TACR Logo" style="height: 80px;" />
+</a></p>
 
         
       </section>
@@ -264,28 +272,28 @@
     </div>
 
     
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Zadejte vyhledávání...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Zadejte vyhledávání..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
 
     <div id="footer" class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-        
-
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    
-
-    
-
-    
-      <li><a href="/acuveg_database/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-    
-  </ul>
-</div>
-
-
-<div class="page__footer-copyright">&copy; 2026 <a href="https://vukoz-oel.github.io">ACUVEG</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+        <footer class="page__footer">
+    <div class="page__footer-copyright">
+        © 2026 VUK, v.v.i.
+    </div>
+</footer>
 
       </footer>
     </div>
@@ -295,6 +303,10 @@
 
 
 
+
+<script src="/acuveg_database/assets/js/lunr/lunr.min.js"></script>
+<script src="/acuveg_database/assets/js/lunr/lunr-store.js"></script>
+<script src="/acuveg_database/assets/js/lunr/lunr-en.js"></script>
 
 
 

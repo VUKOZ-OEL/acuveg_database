@@ -300,35 +300,42 @@ Výška měření {{ vyska }} m
 </table>
 </div>
 
-## Fotogalerie  
-### Ve vegetační sezóně
+## Fotogalerie
 
-<div style="display:flex; flex-wrap:wrap; gap:10px; align-items:flex-start;">
+{% assign seasons = "on,off" | split: "," %}
+
+{% for season in seasons %}
+
+### {% if season == "on" %}Ve vegetační sezóně{% else %}Mimo vegetační sezónu{% endif %}
+
+<div class="gallery" style="display:flex; flex-wrap:wrap; gap:12px;">
 
 {% for file in site.data.images.plots %}
-  <div>
-    <a href="{{ '/assets/images/plot1/on/' | append: file | relative_url }}" target="_blank">
-      <img 
-        src="{{ '/assets/images/plot1/on/' | append: file | relative_url }}" 
-        style="height:100px;">
-    </a>
-  </div>
+
+{% assign name = file | remove: '.webp' %}
+{% assign parts = name | split: ' (' %}
+{% assign vzd = parts[0] %}
+{% assign idx = parts[1] | remove: ')' %}
+
+{% if vzd == "zdroj" %}
+{% assign caption = "Zdroj hluku (" | append: idx | append: ")" %}
+{% else %}
+{% assign caption = "Vzdálenost od zdroje " | append: vzd | append: " m (" | append: idx | append: ")" %}
+{% endif %}
+
+<a href="{{ '/assets/images/plot1/' | append: season | append: '/' | append: file | relative_url }}"
+   target="_blank"
+   title="{{ caption }}">
+
+<img
+src="{{ '/assets/images/plot1/' | append: season | append: '/' | append: file | relative_url }}"
+alt="{{ caption }}"
+style="height:120px; width:auto; display:block;">
+
+</a>
+
 {% endfor %}
 
 </div>
 
-### Mimo vegetační sezónu  
-
-<div style="display:flex; flex-wrap:wrap; gap:10px; align-items:flex-start;">
-
-{% for file in site.data.images.plots %}
-  <div>
-    <a href="{{ '/assets/images/plot1/off/' | append: file | relative_url }}" target="_blank">
-      <img 
-        src="{{ '/assets/images/plot1/off/' | append: file | relative_url }}" 
-        style="height:100px;">
-    </a>
-  </div>
 {% endfor %}
-
-</div>

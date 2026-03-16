@@ -13,7 +13,7 @@ permalink: /plots/plot7/
   **Datum měření:**  02.07.2024, 14.01.2025  
 
 ## Měřené hodnoty hluku - Vegetační sezóna
-{% assign data = site.data.noise.plot1_on %}
+{% assign data = site.data.noise.plot7_on %}
 
 <div class="table-wrapper">
 <table class="excel">
@@ -91,7 +91,7 @@ Výška měření {{ vyska }} m
 </div>
 
 ## Měřené hodnoty hluku - Mimo vegetační sezónu
-{% assign data_off = site.data.noise.plot1_off %}
+{% assign data_off = site.data.noise.plot7_off %}
 
 <div class="table-wrapper">
 <table class="excel">
@@ -169,7 +169,7 @@ Výška měření {{ vyska }} m
 </div>
 
 ## Strukturní charakteristiky derivované z laserového skenování
-{% assign data_lidar = site.data.lidar.plot1 %}
+{% assign data_lidar = site.data.lidar.plot7 %}
 
 <div class="table-wrapper">
 <table class="excel">
@@ -245,7 +245,7 @@ Výška měření {{ vyska }} m
 </div>
 
 ## Meteorologická data
-{% assign data = site.data.meteodata.plot1 %}
+{% assign data = site.data.meteodata.plot7 %}
 
 <div class="table-wrapper">
 <table class="excel">
@@ -299,35 +299,42 @@ Výška měření {{ vyska }} m
 </table>
 </div>
 
-## Fotogalerie  
-### Ve vegetační sezóně
+## Fotogalerie
 
-<div style="display:flex; flex-wrap:wrap; gap:10px; align-items:flex-start;">
+{% assign seasons = "on,off" | split: "," %}
+
+{% for season in seasons %}
+
+### {% if season == "on" %}Ve vegetační sezóně{% else %}Mimo vegetační sezónu{% endif %}
+
+<div class="gallery" style="display:flex; flex-wrap:wrap; gap:12px;">
 
 {% for file in site.data.images.plots %}
-  <div>
-    <a href="{{ '/assets/images/plot1/on/' | append: file | relative_url }}" target="_blank">
-      <img 
-        src="{{ '/assets/images/plot1/on/' | append: file | relative_url }}" 
-        style="height:100px;">
-    </a>
-  </div>
+
+{% assign name = file | remove: '.webp' %}
+{% assign parts = name | split: ' (' %}
+{% assign vzd = parts[0] %}
+{% assign idx = parts[1] | remove: ')' %}
+
+{% if vzd == "zdroj" %}
+{% assign caption = "Zdroj hluku (" | append: idx | append: ")" %}
+{% else %}
+{% assign caption = "Vzdálenost od zdroje " | append: vzd | append: " m (" | append: idx | append: ")" %}
+{% endif %}
+
+<a href="{{ '/assets/images/plot7/' | append: season | append: '/' | append: file | relative_url }}"
+   target="_blank"
+   title="{{ caption }}">
+
+<img
+src="{{ '/assets/images/plot7/' | append: season | append: '/' | append: file | relative_url }}"
+alt="{{ caption }}"
+style="height:120px; width:auto; display:block;">
+
+</a>
+
 {% endfor %}
 
 </div>
 
-### Mimo vegetační sezónu  
-
-<div style="display:flex; flex-wrap:wrap; gap:10px; align-items:flex-start;">
-
-{% for file in site.data.images.plots %}
-  <div>
-    <a href="{{ '/assets/images/plot1/off/' | append: file | relative_url }}" target="_blank">
-      <img 
-        src="{{ '/assets/images/plot1/off/' | append: file | relative_url }}" 
-        style="height:100px;">
-    </a>
-  </div>
 {% endfor %}
-
-</div>

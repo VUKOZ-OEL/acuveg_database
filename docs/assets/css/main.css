@@ -5205,4 +5205,11 @@ table.excel td:first-child {
   font-size: 0.9em;
 }
 
+.gallery img {
+  transform: none !important;
+  image-orientation: from-image;
+  height: 120px;
+  width: auto;
+}
+
 /*# sourceMappingURL=main.css.map */
