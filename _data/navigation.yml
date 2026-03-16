@@ -4,8 +4,6 @@ main:
     children:
       - title: "Podrobnosti projektu"
         url: /project_details/
-  - title: "Databáze"
-    url: /database/
   - title: "Výzkumné plochy"
     children:
       - title: "Hospodaření v buku - Mladý porost"

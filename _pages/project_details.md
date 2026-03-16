@@ -10,9 +10,9 @@ show_prev_next: false
 
 ## Úvod
 
-Projekt CL01000058 „Stanovení a optimalizace vegetačních pásů přirozené dřevinné skladby sloužících k útlumu hluku z dopravy“ byl realizován s cílem stanovit odborně podložený postup pro návrh, zakládání a hodnocení vegetačních pásů jako doplňkového protihlukového opatření.
+Projekt CL01000058 ***„Stanovení a optimalizace vegetačních pásů přirozené dřevinné skladby sloužících k útlumu hluku z dopravy“*** byl realizován s cílem stanovit odborně podložený postup pro návrh, zakládání a hodnocení vegetačních pásů jako doplňkového protihlukového opatření.
 
-Hlavním výstupem projektu je metodika **„Použití vegetačních pásů přirozené dřevinné skladby pro útlum hluku z dopravy“**, schválená Ministerstvem dopravy ČR :contentReference[oaicite:1]{index=1}. Metodika systematicky popisuje přímé i nepřímé mechanismy působení vegetace na šíření hluku ze silniční a železniční dopravy, stanovuje zásady návrhu pásů dřevin a vymezuje jejich účinnost i omezení.
+Hlavním výstupem projektu je metodika ***„Použití vegetačních pásů přirozené dřevinné skladby pro útlum hluku z dopravy“***, schválená Ministerstvem dopravy ČR. Metodika systematicky popisuje přímé i nepřímé mechanismy působení vegetace na šíření hluku ze silniční a železniční dopravy, stanovuje zásady návrhu pásů dřevin a vymezuje jejich účinnost i omezení.
 
 Výzkum zahrnoval opakovaná akustická měření, analýzu prostorové struktury porostů pomocí pozemního laserového skenování (TLS) a vyhodnocení vlivu šířky pásu, hustoty a vertikální struktury vegetace na útlum hluku. Hodnoceny byly různé vývojové fáze porostů a jejich strukturální parametry.
 
@@ -86,7 +86,7 @@ Databáze slouží jako praktický nástroj pro návrh a porovnávání variant 
 
 ---
 
-### Doporučení pro aktualizaci technických předpisů
+### Podklady pro doplnění technických předpisů týkajících se dopravní infrastruktur
 
 Výsledky projektu byly shrnuty do doporučení pro aktualizaci technických předpisů týkajících se:
 
@@ -115,4 +115,4 @@ Vegetace byla potvrzena jako smysluplné doplňkové opatření s významnými v
 ## Kontakt
 
 Ing. Blanka Hablovičová  
-blanka.hablovicova@cdv.cz
+blanka.hablovicova@cdv.gov.cz

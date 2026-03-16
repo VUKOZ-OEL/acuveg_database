@@ -7,7 +7,7 @@ sidebar:
 
 
 
-## Popis  
+## Popis 
 
   **Popis lokality:** buková mlazina věku cca 10 let na souboru lesních typů 3H (živná hlinitá stanoviště třetího lesního vegetačního typu), vzniklá přirozenou obnovou v podrostním bukovém hospodářství.  
   
