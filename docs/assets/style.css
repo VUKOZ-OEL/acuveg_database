@@ -266,6 +266,10 @@ table.excel td:first-child {
   font-weight: 500;
   background: #f9f9f9;
 }
+
+.page__content {
+  font-size: 0.9em;
+}
         
       </section>
 

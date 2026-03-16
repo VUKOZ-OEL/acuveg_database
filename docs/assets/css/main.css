@@ -5201,4 +5201,8 @@ table.excel td:first-child {
   background: #f9f9f9;
 }
 
+.page__content {
+  font-size: 0.9em;
+}
+
 /*# sourceMappingURL=main.css.map */

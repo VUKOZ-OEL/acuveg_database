@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hospodaření v buku - mladý porost
+title: "Hospodaření v buku - mladý porost"
 sidebar:
   nav: "main"
 ---
