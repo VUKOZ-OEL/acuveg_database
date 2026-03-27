@@ -24,7 +24,9 @@ show_prev_next: false
 
 ---
 
-## Metodika (NmetS)
+## Výsledky projektu
+
+### NmetS – Metodika pro využití pásů přirozených dřevin k tlumení dopravního hluku
 
   Metodika stanovuje jednotný postup pro:
   
@@ -49,22 +51,7 @@ show_prev_next: false
   - režimy kontrol a bezpečnostní opatření,
   - ekonomické aspekty včetně ocenění externalit.
   
-  Metodika je určena projektantům, správcům a vlastníkům dopravní infrastruktury, zástupcům veřejné správy i odborné veřejnosti.
-
----
-
-## Výsledky projektu
-
-### NmetS – Metodika pro využití pásů přirozených dřevin k tlumení dopravního hluku
-
-  Schválená metodika poskytuje:
-  
-  - návrhový rámec pro prostorové a druhové uspořádání pásů,
-  - doporučení pro zakládání a údržbu porostů,
-  - postup hodnocení účinnosti vegetačních pásů,
-  - podklady pro aktualizaci technických předpisů.
-  
-  Metodika je dostupná odborné i laické veřejnosti na tomto <a href="https://shopcdv.cz/products/pouziti-vegetacnich-pasu-prirozene-drevinne-skladby-pro-utlum-hluku-z-dopravy" target="_blank" rel="noopener noreferrer"><strong>odkazu.</strong></a>.
+  Metodika je určena projektantům, správcům a vlastníkům dopravní infrastruktury, zástupcům veřejné správy i odborné veřejnosti a je dostupná  na tomto <a href="https://shopcdv.cz/products/pouziti-vegetacnich-pasu-prirozene-drevinne-skladby-pro-utlum-hluku-z-dopravy" target="_blank" rel="noopener noreferrer"><strong>odkazu.</strong></a>
 
 ---
 
@@ -88,13 +75,7 @@ show_prev_next: false
 
 ### Podklady pro doplnění technických předpisů týkajících se dopravní infrastruktur
 
-  Výsledky projektu byly shrnuty do doporučení pro aktualizaci technických předpisů týkajících se:
-  
-  - vegetace podél komunikací,
-  - protihlukových opatření,
-  - kombinovaných řešení (technická opatření + vegetace).
-  
-  Metodika přináší nový, dosud v předpisech systematicky nezpracovaný pohled na využití vegetačních pásů jako doplňkového akustického opatření.
+  Dílčí výzkumné poznatky techničtějšího charakteru byly shrnuty formou podkladů pro doplnění technických předpisů týkajících se silniční nebo železniční infrastruktury se zaměřením na vegetaci v blízkosti pozemních komunikací nebo drah nebo na protihluková opatření.
 
 ---
 

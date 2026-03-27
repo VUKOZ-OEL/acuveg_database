@@ -5,6 +5,7 @@ main:
       - title: "Podrobnosti projektu"
         url: /project_details/
   - title: "Výzkumné plochy"
+    url: /research_plots/
     children:
       - title: "Hospodaření v buku - Mladý porost"
         url: /plots/plot1

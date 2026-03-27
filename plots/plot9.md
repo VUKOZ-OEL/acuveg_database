@@ -11,7 +11,8 @@ permalink: /plots/plot9/
 
   **Popis lokality:** šíření hluku ve volném poli = snížení hlučnosti zvýšením vzdálenosti bez překážky pro zvukovou vlnu.  
   
-  **Datum měření:** 07.08.2024, 28.01.2026 (bez sněhové pokrývky), 21.02.2025 (se sněhovou pokrývkou)
+  **Datum měření:** 07.08.2024, 28.01.2026 (bez sněhové pokrývky), 21.02.2025 (se sněhovou pokrývkou)  
+  **Porostní skupina:**  
 
 ## Měřené hodnoty hluku - Vegetační sezóna
   {% assign data = site.data.noise.plot9_on %}
@@ -19,9 +20,15 @@ permalink: /plots/plot9/
   <div class="table-wrapper">
   <table class="excel">
   
-  <thead>
-  <tr>
-  <th>Vzdálenost</th>
+<thead>
+
+<tr>
+<th></th>
+<th colspan="{{ data[0].size | minus: 3 }}">Frekvence [Hz]</th>
+</tr>
+
+<tr>
+<th>Vzdálenost</th>
   
   {% for key in data[0] %}
   {% unless key[0] == "sekce" or key[0] == "vzdalenost" or key[0] == "vyska" %}
@@ -97,9 +104,15 @@ permalink: /plots/plot9/
   <div class="table-wrapper">
   <table class="excel">
   
-  <thead>
-  <tr>
-  <th>Vzdálenost</th>
+<thead>
+
+<tr>
+<th></th>
+<th colspan="{{ data_off[0].size | minus: 3 }}">Frekvence [Hz]</th>
+</tr>
+
+<tr>
+<th>Vzdálenost</th>
   
   {% for key in data_off[0] %}
   {% unless key[0] == "sekce" or key[0] == "vzdalenost" or key[0] == "vyska" %}
@@ -175,9 +188,15 @@ permalink: /plots/plot9/
   <div class="table-wrapper">
   <table class="excel">
   
-  <thead>
-  <tr>
-  <th>Vzdálenost</th>
+<thead>
+
+<tr>
+<th></th>
+<th colspan="{{ data_snow[0].size | minus: 3 }}">Frekvence [Hz]</th>
+</tr>
+
+<tr>
+<th>Vzdálenost</th>
   
   {% for key in data_snow[0] %}
   {% unless key[0] == "sekce" or key[0] == "vzdalenost" or key[0] == "vyska" %}

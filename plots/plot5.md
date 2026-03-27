@@ -10,7 +10,8 @@ permalink: /plots/plot5/
 
   **Popis lokality:** ranné vývojové stádium lesa bohatých struktur s širokým rozpětím dřevin na souboru lesních typů 4K (kyselá stanoviště čtvrtého lesního vegetačního stupně), věková diferenciace porostu je cca 3–10 let.    
   
-  **Datum měření:** 06.08.2024, 20.02.2025
+  **Datum měření:** 06.08.2024, 20.02.2025  
+  **Porostní skupina:** 146Ea1b  
 
 ## Měřené hodnoty hluku - Vegetační sezóna
   {% assign data = site.data.noise.plot5_on %}
@@ -18,9 +19,15 @@ permalink: /plots/plot5/
   <div class="table-wrapper">
   <table class="excel">
   
-  <thead>
-  <tr>
-  <th>Vzdálenost</th>
+<thead>
+
+<tr>
+<th></th>
+<th colspan="{{ data[0].size | minus: 3 }}">Frekvence [Hz]</th>
+</tr>
+
+<tr>
+<th>Vzdálenost</th>
   
   {% for key in data[0] %}
   {% unless key[0] == "sekce" or key[0] == "vzdalenost" or key[0] == "vyska" %}
@@ -96,9 +103,15 @@ permalink: /plots/plot5/
   <div class="table-wrapper">
   <table class="excel">
   
-  <thead>
-  <tr>
-  <th>Vzdálenost</th>
+    <thead>
+    
+    <tr>
+    <th></th>
+    <th colspan="{{ data_off[0].size | minus: 3 }}">Frekvence [Hz]</th>
+    </tr>
+    
+    <tr>
+    <th>Vzdálenost</th>
   
   {% for key in data_off[0] %}
   {% unless key[0] == "sekce" or key[0] == "vzdalenost" or key[0] == "vyska" %}
@@ -338,3 +351,33 @@ style="height:120px; width:auto; display:block;">
 </div>
 
 {% endfor %}
+
+### Řezy bodovým mračnem pozemního laserového skenování
+
+<div style="display:flex; flex-wrap:wrap; gap:16px;">
+
+  <!-- Vegetační sezóna -->
+  <div style="flex:1 1 48%; text-align:center;">
+    <a href="{{ '/assets/images/lidar/plot5_on.webp' | relative_url }}" target="_blank">
+      <img src="{{ '/assets/images/lidar/plot5_on.webp' | relative_url }}"
+           alt="Řez TLS bodovým mračnem podél transektu s šířkou 1m"
+           style="width:100%; height:auto;">
+    </a>
+    <div style="margin-top:6px; font-size:0.9em;">
+      Řez bodovým mračnem podél transektu s šířkou 3m (ve vegetační sezóně)
+    </div>
+  </div>
+
+  <!-- Mimo vegetaci -->
+  <div style="flex:1 1 48%; text-align:center;">
+    <a href="{{ '/assets/images/lidar/plot5_off.webp' | relative_url }}" target="_blank">
+      <img src="{{ '/assets/images/lidar/plot5_off.webp' | relative_url }}"
+           alt="Řez TLS bodovým mračnem podél transektu s šířkou 1m"
+           style="width:100%; height:auto;">
+    </a>
+    <div style="margin-top:6px; font-size:0.9em;">
+      Řez bodovým mračnem podél transektu s šířkou 3m (mimo vegetační sezónu)
+    </div>
+  </div>
+
+</div>

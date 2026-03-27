@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://vukoz-oel.github.io/acuveg_database/database/</loc>
-</url>
-<url>
 <loc>https://vukoz-oel.github.io/acuveg_database/</loc>
 </url>
 <url>
@@ -35,6 +32,9 @@
 </url>
 <url>
 <loc>https://vukoz-oel.github.io/acuveg_database/project_details/</loc>
+</url>
+<url>
+<loc>https://vukoz-oel.github.io/acuveg_database/research_plots/</loc>
 </url>
 <url>
 <loc>https://vukoz-oel.github.io/acuveg_database/_includes/footer.html</loc>

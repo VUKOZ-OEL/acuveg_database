@@ -10,7 +10,8 @@ permalink: /plots/plot3/
 
   **Popis lokality:** odrostlý bukový porost s buky v cca 60–80 lety v hlavní úrovni a s výplní bukového náletu a keřového patra v podúrovni na souboru lesních typů 3B (bohatá stanoviště třetího lesního vegetačního stupně).  
   
-  **Datum měření:** 17.07.2024, 15.01.2025
+  **Datum měření:** 17.07.2024, 15.01.2025  
+  **Porostní skupina:** 107Da4a  
 
 ## Měřené hodnoty hluku - Vegetační sezóna
   {% assign data = site.data.noise.plot3_on %}
@@ -18,9 +19,15 @@ permalink: /plots/plot3/
   <div class="table-wrapper">
   <table class="excel">
   
-  <thead>
-  <tr>
-  <th>Vzdálenost</th>
+<thead>
+
+<tr>
+<th></th>
+<th colspan="{{ data[0].size | minus: 3 }}">Frekvence [Hz]</th>
+</tr>
+
+<tr>
+<th>Vzdálenost</th>
   
   {% for key in data[0] %}
   {% unless key[0] == "sekce" or key[0] == "vzdalenost" or key[0] == "vyska" %}
@@ -96,9 +103,15 @@ permalink: /plots/plot3/
   <div class="table-wrapper">
   <table class="excel">
   
-  <thead>
-  <tr>
-  <th>Vzdálenost</th>
+<thead>
+
+<tr>
+<th></th>
+<th colspan="{{ data_off[0].size | minus: 3 }}">Frekvence [Hz]</th>
+</tr>
+
+<tr>
+<th>Vzdálenost</th>
   
   {% for key in data_off[0] %}
   {% unless key[0] == "sekce" or key[0] == "vzdalenost" or key[0] == "vyska" %}
@@ -338,3 +351,33 @@ style="height:120px; width:auto; display:block;">
 </div>
 
 {% endfor %}
+
+### Řezy bodovým mračnem pozemního laserového skenování
+
+<div style="display:flex; flex-wrap:wrap; gap:16px;">
+
+  <!-- Vegetační sezóna -->
+  <div style="flex:1 1 48%; text-align:center;">
+    <a href="{{ '/assets/images/lidar/plot3_on.webp' | relative_url }}" target="_blank">
+      <img src="{{ '/assets/images/lidar/plot3_on.webp' | relative_url }}"
+           alt="Řez TLS bodovým mračnem podél transektu s šířkou 1m"
+           style="width:100%; height:auto;">
+    </a>
+    <div style="margin-top:6px; font-size:0.9em;">
+      Řez bodovým mračnem podél transektu s šířkou 3m (ve vegetační sezóně)
+    </div>
+  </div>
+
+  <!-- Mimo vegetaci -->
+  <div style="flex:1 1 48%; text-align:center;">
+    <a href="{{ '/assets/images/lidar/plot3_off.webp' | relative_url }}" target="_blank">
+      <img src="{{ '/assets/images/lidar/plot3_off.webp' | relative_url }}"
+           alt="Řez TLS bodovým mračnem podél transektu s šířkou 1m"
+           style="width:100%; height:auto;">
+    </a>
+    <div style="margin-top:6px; font-size:0.9em;">
+      Řez bodovým mračnem podél transektu s šířkou 3m (mimo vegetační sezónu)
+    </div>
+  </div>
+
+</div>

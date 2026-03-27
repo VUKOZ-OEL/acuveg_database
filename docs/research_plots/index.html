@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Databáze měřených dat - ACUVEG</title>
+<!-- begin _includes/seo.html --><title>Výzkumné plochy - ACUVEG</title>
 <meta name="description" content="Útlum hluku vegetací">
 
 
@@ -18,8 +18,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="cs_CZ">
 <meta property="og:site_name" content="ACUVEG">
-<meta property="og:title" content="Databáze měřených dat">
-<meta property="og:url" content="https://vukoz-oel.github.io/acuveg_database/database/">
+<meta property="og:title" content="Výzkumné plochy">
+<meta property="og:url" content="https://vukoz-oel.github.io/acuveg_database/research_plots/">
 
 
   <meta property="og:description" content="Útlum hluku vegetací">
@@ -35,7 +35,7 @@
 
 
 
-<link rel="canonical" href="https://vukoz-oel.github.io/acuveg_database/database/">
+<link rel="canonical" href="https://vukoz-oel.github.io/acuveg_database/research_plots/">
 
 
 
@@ -99,7 +99,7 @@
               >O projektu</a>
             </li><li class="masthead__menu-item">
               <a
-                href=""
+                href="/acuveg_database/research_plots/"
                 
                 
               >Výzkumné plochy</a>
@@ -169,7 +169,7 @@
       
         <li>
           
-            <span class="nav__sub-title">Výzkumné plochy</span>
+            <a href="/acuveg_database/research_plots/"><span class="nav__sub-title">Výzkumné plochy</span></a>
           
 
           
@@ -208,7 +208,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Databáze měřených dat">
+    <meta itemprop="headline" content="Výzkumné plochy">
     
     
     
@@ -217,7 +217,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://vukoz-oel.github.io/acuveg_database/database/" itemprop="url">Databáze měřených dat
+            <a href="https://vukoz-oel.github.io/acuveg_database/research_plots/" itemprop="url">Výzkumné plochy
 </a>
           </h1>
           
@@ -228,10 +228,53 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Plnou verzi databáze lze stáhnout <a href="https://zenodo.org/" target="_blank" rel="noopener noreferrer"><strong>zde</strong></a>. Obsahuje detailní popis lesního porostu, měření útlumu hluku a LiDAR data (ve formě předzpracovaných bodových mračen) a odvozené proměnné.</p>
+        <p>Měření vytipovaných porostů probíhala na pozemcích Školního lesního podniku Masarykův les Křtiny patřící Mendelově univerzitě v Brně. Způsob výběru výzkumných ploch, postup akustických měření a laserového skenování je popsán v <a href="https://shopcdv.cz/products/pouziti-vegetacnich-pasu-prirozene-drevinne-skladby-pro-utlum-hluku-z-dopravy" target="_blank" rel="noopener noreferrer">metodice.</a></p>
 
-<h2 id="popis-dat">Popis dat</h2>
-<p>Bude doplněno podle finální verze databáze …</p>
+<h2 id="ke-každé-výzkumné-ploše-je-uveden">Ke každé výzkumné ploše je uveden</h2>
+
+<ul>
+  <li><strong>Popis lokality a porostní skupina</strong>, do které porost spadá, lze najít <a href="https://hul.mendelu.cz/rozdeleni-lesa-v-zarizeni-strukturne-bohatych-lesu-na-zaklade-statisticke-provozni-inventarizace/" target="_blank" rel="noopener noreferrer">zde.</a></li>
+  <li><strong>Data měření</strong> (kdy byla měření provedena)</li>
+  <li><strong>Naměřené hodnoty útlumu pro jednotlivé frekvence</strong> (akustická měření)</li>
+  <li><strong>Útlum vegetací (bez vlivu vzdálenosti)</strong> – jak ovlivní hlučnost na dané frekvenci samotná vegetace</li>
+  <li><strong>Útlum pásu jako celku (s vlivem vzdálenosti)</strong> – jak ovlivní hlučnost na dané frekvenci pás jako celek (vegetace + vzdálenost od zdroje hluku)</li>
+</ul>
+
+<h2 id="strukturní-charakteristiky-laserové-skenování">Strukturní charakteristiky (laserové skenování)</h2>
+
+<h3 id="pokryvnost">Pokryvnost</h3>
+<p>Pokryvnost značí procento prostoru zaplněného vegetací:</p>
+<ul>
+  <li>ve výšce <strong>0–2,5 m</strong> v prvních <strong>7,5 / 15 / 30 m</strong> plochy</li>
+  <li>ve výšce <strong>0–5,5 m</strong> v prvních <strong>7,5 / 15 / 30 m</strong> plochy</li>
+  <li><strong>0–p98</strong> = výška od země po typickou horní výšku porostu v prvních <strong>7,5 / 15 / 30 m</strong></li>
+</ul>
+
+<h3 id="výškové-charakteristiky">Výškové charakteristiky</h3>
+<ul>
+  <li><strong>Max. výška</strong> – maximální zaznamenaná výška vegetace v ploše</li>
+  <li><strong>p98 koruny</strong> – typická maximální výška porostu (98. percentil maxim výšek povrchu porostu)</li>
+  <li><strong>Průměrná výška koruny</strong> – průměrná výška vrcholů korun stromů v ploše</li>
+</ul>
+
+<h3 id="struktura">Struktura</h3>
+<ul>
+  <li><strong>Průměrná výška voxelů</strong> – průměrná výška všech zaznamenaných vegetačních bodů (vertikální těžiště porostu)</li>
+  <li><strong>Směrodatná odchylka</strong> – míra vertikální variability výšek vegetace</li>
+  <li><strong>Koeficient variability</strong> – relativní variabilita výšky vegetace (směrodatná odchylka / průměr)</li>
+  <li><strong>Index vertikální diverzity</strong> – míra vertikální strukturální rozmanitosti porostu (Shannonův index)
+    <ul>
+      <li>nízká hodnota → vegetace je soustředěna v jedné výšce (jednoduchá struktura)</li>
+      <li>vysoká hodnota → vegetace je rozložena ve více výškových vrstvách (strukturálně bohatý porost)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="další-data">Další data</h2>
+<ul>
+  <li><strong>Meteorologická data</strong> – počasí v průběhu měření (teplota se vždy měřila ve stínu)</li>
+  <li><strong>Fotogalerie</strong> – fotodokumentace z měření (vzhled lokality v době měření)</li>
+</ul>
 
         
       </section>

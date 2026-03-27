@@ -12,7 +12,8 @@ permalink: /plots/plot2/
 
   **Popis lokality:** buková mlazina až tyčkovina ve věku cca 20 let na souboru lesních typů 3W (živná bazická stanoviště třetího lesního vegetačního stupně.    
   
-  **Datum měření:** 18.07.2024, 22.01.2026
+  **Datum měření:** 18.07.2024, 22.01.2026  
+  **Porostní skupina:** 340A2  
 
 ## Měřené hodnoty hluku - Vegetační sezóna
 {% assign data = site.data.noise.plot2_on %}
@@ -21,6 +22,12 @@ permalink: /plots/plot2/
 <table class="excel">
 
 <thead>
+
+<tr>
+<th></th>
+<th colspan="{{ data[0].size | minus: 3 }}">Frekvence [Hz]</th>
+</tr>
+
 <tr>
 <th>Vzdálenost</th>
 
@@ -99,6 +106,12 @@ Výška měření {{ vyska }} m
 <table class="excel">
 
 <thead>
+
+<tr>
+<th></th>
+<th colspan="{{ data_off[0].size | minus: 3 }}">Frekvence [Hz]</th>
+</tr>
+
 <tr>
 <th>Vzdálenost</th>
 
@@ -340,3 +353,33 @@ style="height:120px; width:auto; display:block;">
 </div>
 
 {% endfor %}
+
+### Řezy bodovým mračnem pozemního laserového skenování
+
+<div style="display:flex; flex-wrap:wrap; gap:16px;">
+
+  <!-- Vegetační sezóna -->
+  <div style="flex:1 1 48%; text-align:center;">
+    <a href="{{ '/assets/images/lidar/plot2_on.webp' | relative_url }}" target="_blank">
+      <img src="{{ '/assets/images/lidar/plot2_on.webp' | relative_url }}"
+           alt="Řez TLS bodovým mračnem podél transektu s šířkou 1m"
+           style="width:100%; height:auto;">
+    </a>
+    <div style="margin-top:6px; font-size:0.9em;">
+      Řez bodovým mračnem podél transektu s šířkou 3m (ve vegetační sezóně)
+    </div>
+  </div>
+
+  <!-- Mimo vegetaci -->
+  <div style="flex:1 1 48%; text-align:center;">
+    <a href="{{ '/assets/images/lidar/plot2_off.webp' | relative_url }}" target="_blank">
+      <img src="{{ '/assets/images/lidar/plot2_off.webp' | relative_url }}"
+           alt="Řez TLS bodovým mračnem podél transektu s šířkou 1m"
+           style="width:100%; height:auto;">
+    </a>
+    <div style="margin-top:6px; font-size:0.9em;">
+      Řez bodovým mračnem podél transektu s šířkou 3m (mimo vegetační sezónu)
+    </div>
+  </div>
+
+</div>
