@@ -28,72 +28,70 @@ show_prev_next: false
 
 ### NmetS – Metodika pro využití pásů přirozených dřevin k tlumení dopravního hluku
 
-  Metodika stanovuje jednotný postup pro:
-  
+  Metodika obsahuje tyto informace:
+ 
   - návrh vegetačních pásů přirozené dřevinné skladby,
   - jejich zakládání (preferenčně lesnickým způsobem),
   - péči a dlouhodobou údržbu,
   - hodnocení akustické účinnosti,
   - respektování bezpečnostních a legislativních omezení.
-  
-  Bylo prokázáno, že:
-  
-  - Vegetační pásy nepůsobí jako neprůzvučná bariéra, ale snižují hluk kombinací absorpce, rozptylu, difrakce a vícenásobných odrazů.
-  - Útlum hluku významně závisí na šířce pásu, hustotě porostu a vyplnění výškových pater.
-  - Vertikální strukturální diverzita má větší vliv než samotná druhová skladba.
-  - Minimální doporučená šířka pásu je 15 m.
-  - Účinnost vegetace je nižší než u technických opatření (např. protihlukové clony), ale má významný doplňkový a psychologický efekt.
-  
-  Metodika rovněž detailně řeší:
-  - prostorové nároky vegetace,
-  - ochranná pásma silnic a drah,
-  - minimální vzdálenosti výsadeb,
-  - režimy kontrol a bezpečnostní opatření,
-  - ekonomické aspekty včetně ocenění externalit.
-  
-  Metodika je určena projektantům, správcům a vlastníkům dopravní infrastruktury, zástupcům veřejné správy i odborné veřejnosti a je dostupná  na tomto <a href="https://shopcdv.cz/products/pouziti-vegetacnich-pasu-prirozene-drevinne-skladby-pro-utlum-hluku-z-dopravy" target="_blank" rel="noopener noreferrer"><strong>odkazu.</strong></a>
+  - ekonomické porovnání s klasickými protihlukovými opatřeními.
+ 
+  Metodika je dostupná odborné i laické veřejnosti na tomto <a href="https://shopcdv.cz/products/pouziti-vegetacnich-pasu-prirozene-drevinne-skladby-pro-utlum-hluku-z-dopravy" target="_blank" rel="noopener noreferrer"><strong>odkazu.</strong></a>.
 
 ---
 
 ### S – Databáze dřevinné vegetace pro akustické tlumení hluku
 
-  V rámci projektu byla vytvořena online databáze vegetačních pásů určených pro akustické hodnocení.
-  
+  V rámci projektu byla vytvořena online databáze vegetačních pásů určených pro akustické hodnocení (nyní se nalézáte v tomto výstupu).
+ 
   Databáze obsahuje:
-  
+ 
   - typizaci vegetačních pásů,
   - fotodokumentaci,
   - výsledky akustických měření,
   - bodová mračna z laserového skenování,
   - 3D voxelovou matici hustoty vegetace,
-  - vizualizace prostorové struktury,
-  - ekonomické porovnání s klasickými protihlukovými opatřeními.
-  
-  Databáze slouží jako praktický nástroj pro návrh a porovnávání variant protihlukových opatření.
+  - vizualizace prostorové struktury.
+  -
+ 
+  Databáze slouží jako praktický nástroj pro návrh a porovnávání variant protihlukových pásů.
 
 ---
 
-### Podklady pro doplnění technických předpisů týkajících se dopravní infrastruktur
+### Podklady pro doplnění technických předpisů týkajících se dopravní infrastruktury
 
-  Dílčí výzkumné poznatky techničtějšího charakteru byly shrnuty formou podkladů pro doplnění technických předpisů týkajících se silniční nebo železniční infrastruktury se zaměřením na vegetaci v blízkosti pozemních komunikací nebo drah nebo na protihluková opatření.
-
+  Dílčí výzkumné poznatky techničtějšího charakteru byly shrnuty formou podkladů pro doplnění technických předpisů týkajících se silniční nebo železniční infrastruktury se zaměřením na vegetaci v blézkosti pozemních komunikací nebo drah nebo na protihluková opatření.,
+   
 ---
 
 ## Přínosy projektu
 
   Projekt přinesl:
-  
+ 
   - kvantifikaci vlivu struktury vegetace na útlum hluku,
   - propojení akustických měření a 3D strukturální analýzy,
   - jednotný metodický rámec pro praxi,
   - podklady pro ekonomické hodnocení externalit,
   - nástroj pro udržitelné plánování protihlukových opatření.
-  
-  Vegetace byla potvrzena jako smysluplné doplňkové opatření s významnými vedlejšími benefity (zlepšení mikroklimatu, záchyt polutantů, zvýšení biodiverzity, psychologický efekt).
+ 
+---
+
+ ## Závěry projektu
+
+ Bylo prokázáno, že:
+ 
+  - Vegetační pásy nepůsobí jako neprůzvučná bariéra, ale snižují hluk kombinací absorpce, rozptylu, difrakce a vícenásobných odrazů.
+  - Útlum hluku významně závisí na šířce pásu, hustotě porostu a vyplnění výškových pater.
+  - Vertikální strukturální diverzita má větší vliv než samotná druhová skladba.
+  - Minimální doporučená šířka pásu je 15 m.
+  - Účinnost vegetace je nižší než u technických opatření (např. protihlukové clony), ale má významný doplňkový a psychologický efekt.
+
+ Vegetace byla potvrzena jako smysluplné doplňkové opatření s významnými vedlejšími benefity (zlepšení mikroklimatu, záchyt polutantů, zvýšení biodiverzity, psychologický efekt).
 
 ---
 
 ## Kontakt
-  
+ 
   Ing. Blanka Hablovičová  
   blanka.hablovicova@cdv.gov.cz

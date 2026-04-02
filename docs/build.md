@@ -10,7 +10,7 @@ magick mogrify -format webp -resize 1200x -strip -quality 70 *.jpg
 # hospodaření v buku - mladý porost
 Buk_mladý (Březinka 1), léto 18.07.2024, zima 22.01.2026 (je to jako zima sníh)
 buková mlazina věku cca 10 let na souboru lesních typů 3H (živná hlinitá stanoviště třetího lesního vegetačního typu) ; vznikla přirozenou obnovou v podrostním bukovém hospodářství
-porostní skupina 
+porostní skupina 341Da1b
 
 # hospodaření v buku - odrostlý porost
 Buk_odrostlý (Březinka 2), léto 18.07.2024, zima 22.01.2026 (je to jako zima sníh)
