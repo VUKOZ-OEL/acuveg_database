@@ -77,7 +77,7 @@ show_prev_next: false
  
 ---
 
- ## Závěry projektu
+## Závěry projektu  
 
  Bylo prokázáno, že:
  
