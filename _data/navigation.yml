@@ -4,6 +4,8 @@ main:
     children:
       - title: "Podrobnosti projektu"
         url: /project_details/
+      - title: "Řešitelský tým"
+        url: /team/
   - title: "Výzkumné plochy"
     url: /research_plots/
     children:
